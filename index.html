@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Foodster - Bar &amp; Restaurant Theme</title>
+    <title>Lunchafy</title>
 
     <!-- Retina.js -->
     <!-- WARNING: Retina.js doesn't work if you view the page via file:// -->
@@ -43,13 +43,14 @@
 
 <body id="page-top" class="index">
 
-    <div class="loading-screen">
+  <!-- Uncomment to bring back loading page -->
+    <!-- <div class="loading-screen">
         <div class="content animated fadeInDown">
             <i class="fa fa-circle-o-notch fa-spin"></i>
             <h2 class="section-heading">Baking the page</h2>
             <h3 class="section-subheading">Please wait...</h3>
         </div>
-    </div>
+    </div> -->
 
     <!-- Main Slider -->
     <header id="header" class="intro">
@@ -63,10 +64,10 @@
                 <div class="fill item_one"></div>
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2">
-                        <div class="slide-content animated fadeInDown">
+                        <div class="slide-content fadeInDown">
                             <span class="section-icon">d</span>
-                            <h1>Foodster</h1>
-                            <h2>The ultimate theme for any restaurant or bar</h2>
+                            <h1>Lunchafy</h1>
+                            <h2>Awesome Food, Low Prices</h2>
                         </div>
                     </div>
                 </div><!-- /.row -->
@@ -78,30 +79,30 @@
                 <div class="fill item_two"></div>
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2">
-                        <div class="slide-content animated fadeInDown">
+                        <div class="slide-content fadeInDown">
                             <span class="section-icon">f</span>
-                            <h1>Crafted by designers</h1>
-                            <h2>Coded for developers</h2>
+                            <h1>Healthy Food</h1>
+                            <h2>No Skimping on Taste</h2>
                         </div>
                     </div>
                 </div><!-- /.row -->
             </div>
-            <!-- End slide -->            
-        
+            <!-- End slide -->
+
             <!-- Start slide -->
             <div class="item">
                 <div class="fill item_three"></div>
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2">
-                        <div class="slide-content animated zoomIn">
+                        <div class="slide-content zoomIn">
                             <span class="section-icon">x</span>
-                            <h1>Fully documented and supported</h1>
-                            <h2>All customers receive free support</h2>
+                            <h1>Made with Love</h1>
+                            <h2>In San Francisco</h2>
                         </div>
                     </div>
                 </div><!-- /.row -->
             </div>
-            <!-- End slide -->   
+            <!-- End slide -->
 
           </div><!-- /.carousel-inner -->
 
@@ -137,15 +138,18 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-left">
-                    <li><a class="page-scroll" href="#restaurants">Restaurants</a></li>
-                    <li><a class="page-scroll" href="#menus">Menus</a></li>
-                    <li><a class="page-scroll" href="#book">Book a Table</a></li>
+                    <!-- <li><a class="page-scroll" href="#restaurants">Restaurants</a></li> -->
+                    <li><a class="page-scroll" href="#week">Menu</a></li>
+                    <li><a class="page-scroll" href="#restaurants">How It Works</a></li>
                 </ul>
                 <a class="navbar-brand page-scroll" href="#header">
-                    <img src="assets/images/foodster_navigation_logo.png" alt="">
+                    <div class="logo-text">
+                      Lunchafy
+                    </div>
+                    <!-- <img src="assets/images/foodster_navigation_logo.png" alt=""> -->
                 </a>
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
+                    <!-- <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pages <span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu">
                         <li><a href="coffeehouse.html">Coffee House</a></li>
@@ -164,7 +168,7 @@
                         <li><a href="404.html">404 Error Page</a></li>
                         <li><a href="page.html">Blank Page</a></li>
                       </ul>
-                    </li>
+                    </li> -->
                     <li><a class="page-scroll" href="#gallery">Gallery</a></li>
                     <li><a class="page-scroll" href="#footer">Contact Us</a></li>
                 </ul>
@@ -180,27 +184,78 @@
     <section id="intro">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center wow zoomIn">
-                    <h2 class="section-heading">A unique experience for food lovers.</h2>
-                    <span class="section-divider">M</span>
-                    <h3 class="section-subheading text-muted">Homemade food, local ingredients <span>... carefully prepared.</span></h3>
-                    <a href="#unique" class="page-scroll">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Group Lunch Delivered</h2>
+                    <span id="week" class="section-divider">e</span>
+                    <h2 class="section-subheading text-muted">Flat Rate</h2>
+                    <h2 class="section-subheading text-muted">No Delivery, Tip or Tax</h2>
+                    <!-- <a href="#unique" class="page-scroll">
                         <i class="fa fa-angle-double-down animated"></i>
-                    </a>
+                    </a> -->
                 </div>
             </div><!-- /.row -->
+            <div class="row">
+              <h2  class="menu text-center">This Weeks Menu</h2>
+              <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h2 class="panel-title">Jan 18th - <span class="orange">PreOrder: $7</span></h2>
+                  </div>
+                  <div class="panel-body">
+                    <iframe style="height:360px; width:180px; border:0" src="https://www.tilt.com/tilts/lunch-monday-jan-18th/iframe_widget"></iframe>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h2 class="panel-title">Jan 18th - Day Of: $8</h2>
+                  </div>
+                  <div class="panel-body">
+                    <iframe style="height:360px; width:180px; border:0" src="https://www.tilt.com/tilts/lunch-monday-jan-18th/iframe_widget"></iframe>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h2 class="panel-title">Jan 19th - <span class="orange">PreOrder: $7</span></h2>
+                  </div>
+                  <div class="panel-body">
+                    <iframe style="height:360px; width:180px; border:0" src="https://www.tilt.com/tilts/lunch-monday-jan-18th/iframe_widget"></iframe>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h2 class="panel-title">Jan 19th - Day Of: $8</h2>
+                  </div>
+                  <div class="panel-body">
+                    <iframe style="height:360px; width:180px; border:0" src="https://www.tilt.com/tilts/lunch-monday-jan-18th/iframe_widget"></iframe>
+
+                  </div>
+                </div>
+              </div>
+            </div>
         </div><!-- /.container -->
     </section>
     <!-- End Introduction Section -->
- 
+
     <!-- Unique Chain Section -->
     <section id="unique">
         <div class="container wow fadeInUp">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <span class="section-icon">x</span>
-                    <h2 class="section-heading">Foodster is a unique chain of restaurants &amp; bars for food lovers.</h2>
-                    <h3 class="section-subheading">We specialise in the special, offering a welcoming dining experience for couples, families and foodies.</h3>
+                    <span class="section-icon">s</span>
+                    <h2 class="section-heading">Lunchafy keeps prices low by delivering multiple lunches in the begining of the week.</h2>
+                    <!-- <h3 class="section-subheading">Our meals are delievered cold and crafted to be good for up to two days in the fridge.</h3> -->
                     <a href="#restaurants" class="page-scroll">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
@@ -215,11 +270,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3 class="section-subheading wow fadeInDown">Select your Foodster</h3>
+                    <h3 class="section-subheading how-it-works">How it works</h3>
+                    <span class="section-icon">m</span>
                 </div>
             </div><!-- /.row-->
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-6 text-center wow fadeInLeft">
+              <div class="explaination">
+                <h3 class="text-center">We require a minimum number of orders for delivery to your location.</h3>
+                <h3 class="text-center">Ordering opens up the week before on <a class="tilt" href="https://www.tilt.com/users/dladowitz">Tilt.com</a>.</h3>
+                <h3 class="text-center">Once the minimum number has been reached lunch is on!</h3>
+              </div>
+              <span class="section-icon text-center">M</span>
+              <div class="explaination">
+                <h3 class="text-center">Meals are deliverd cold. You reheat them in the microwave.</h3>
+                <h3 class="text-center">On Monday we'll deliver all meals for the week.</h3>
+                <h3 class="text-center">We've crafted meals to stay good for up to two days in the fridge.</h3>
+              </div>
+                <!-- <div class="col-lg-3 col-md-3 col-sm-6 text-center">
                     <ul>
                         <li><a href="#restaurantModal1" data-toggle="modal">Manchester</a></li>
                         <li><a href="#restaurantModal1" data-toggle="modal">London</a></li>
@@ -246,10 +313,11 @@
                         <li><a href="#restaurantModal1" data-toggle="modal">Sydney</a></li>
                         <li><a href="#restaurantModal1" data-toggle="modal">Glasgow</a></li>
                     </ul>
-                </div>
-            </div><!-- /.row -->
+                </div> -->
+            </div>
+            <!-- /.row -->
             <div class="row">
-                <div class="col-lg-12">      
+                <div class="col-lg-12">
                     <a href="#menus" class="page-scroll">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
@@ -260,7 +328,7 @@
     <!-- End Restaurants Section -->
 
     <!-- Menus Section -->
-    <section id="menus">
+    <!-- <section id="menus">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -277,23 +345,23 @@
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
                 </div>
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section>
+            </div>
+        </div>
+    </section> -->
     <!-- End Menus Section -->
 
     <!-- Book Section -->
-    <section id="book">
+    <!-- <section id="book">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading wow fadeInDown">Book a table</h2>
                     <h3 class="section-subheading wow fadeInDown">Tell us your name, the occasion of your visit, and how many are in your party...</h3>
                 </div>
-            </div><!-- /.row -->
+            </div>
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 wow fadeInUp signup_form">
-                    
+
                       <form id="bookForm" class="form form-table text-center" name="table_reservation" novalidate>
                         <h6>All fields required.</h6>
                         <div class="row">
@@ -362,9 +430,9 @@
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
                 </div>
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section>
+            </div>
+        </div>
+    </section> -->
     <!-- End Book Section -->
 
     <!-- Gallery Section -->
@@ -375,23 +443,53 @@
             <li data-target="#gallery-carousel" data-slide-to="0" class="active"></li>
             <li data-target="#gallery-carousel" data-slide-to="1"></li>
             <li data-target="#gallery-carousel" data-slide-to="2"></li>
+            <li data-target="#gallery-carousel" data-slide-to="3"></li>
+            <li data-target="#gallery-carousel" data-slide-to="4"></li>
+            <li data-target="#gallery-carousel" data-slide-to="5"></li>
+            <li data-target="#gallery-carousel" data-slide-to="6"></li>
+            <li data-target="#gallery-carousel" data-slide-to="7"></li>
           </ol><!-- /.carousel-indicators -->
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <!-- Start slide -->
             <div class="item active">
-                <img src="assets/images/gallery.jpg" alt="" data-no-retina>
+                <img src="assets/images/main/chicken_peices_small.jpg" alt="" data-no-retina>
             </div>
             <!-- End slide-->
             <!-- Start slide -->
             <div class="item">
-                <img src="assets/images/gallery2.jpg" alt="" data-no-retina>
+                <img src="assets/images/main/green_beans_small.jpg" alt="" data-no-retina>
             </div>
             <!-- End slide -->
             <!-- Start slide -->
             <div class="item">
-                <img src="assets/images/gallery3.jpg" alt="" data-no-retina>
+                <img src="assets/images/main/fried_small.jpg" alt="" data-no-retina>
+            </div>
+            <!-- End slide -->
+            <!-- Start slide -->
+            <div class="item">
+                <img src="assets/images/main/dumplings_small.jpg" alt="" data-no-retina>
+            </div>
+            <!-- End slide -->
+            <!-- Start slide -->
+            <div class="item">
+                <img src="assets/images/main/fried_artichokes_small.jpg" alt="" data-no-retina>
+            </div>
+            <!-- End slide -->
+            <!-- Start slide -->
+            <div class="item">
+                <img src="assets/images/main/fruit_salad_small.jpg" alt="" data-no-retina>
+            </div>
+            <!-- End slide -->
+            <!-- Start slide -->
+            <div class="item">
+                <img src="assets/images/main/lasagne_small.jpg" alt="" data-no-retina>
+            </div>
+            <!-- End slide -->
+            <!-- Start slide -->
+            <div class="item">
+                <img src="assets/images/main/tempura_small.jpg" alt="" data-no-retina>
             </div>
             <!-- End slide -->
           </div><!-- /.carousel-inner -->
@@ -412,12 +510,12 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-sm-12 wow fadeInDown">
-                    <h2 class="section-heading">Make it yours</h2>
-                    <p>Build your next project using Foodster and benefit from free support &amp; excellent documentation</p>
-                    <a href="https://wrapbootstrap.com/theme/foodster-restaurant-bar-theme-WB0P56R61" class="btn btn-primary btn-lg" target="_parent">Purchase now</a>
+                    <h2 class="section-heading">Pre-Order For Next Week</h2>
+                    <!-- <p>Build your next project using Foodster and benefit from free support &amp; excellent documentation</p> -->
+                    <a href="https://www.tilt.com/users/dladowitz" class="btn btn-primary btn-lg" target="_parent">Order Now</a>
                 </div>
             </div>
-        </div>  
+        </div>
     </div>
 
     <div class="map">
@@ -428,9 +526,9 @@
     <footer id="footer">
           <div class="container inner">
               <div class="row">
-                  
+
                   <div class="col-md-12 text-center">
-                      <h2 class="section-heading wow fadeInDown" >Contact Foodster</h2>
+                      <h2 class="section-heading wow fadeInDown" >Contact Lunchafy</h2>
                   </div>
 
                   <div class="col-md-3 col-sm-6 inner">
@@ -438,27 +536,27 @@
                       <p>Magnis modipsae voloratati andigen daepeditem quiate re porem que aut labor. Laceaque eictemperum quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
                       <a href="about.html" class="txt-btn">More about us</a>
                   </div><!-- /.col -->
-                  
+
                   <div class="col-md-3 col-sm-6 inner">
-                      <h3 class="section-subheading">Opening Times <span>X</span></h3>
-                        <p><em>Mon &ndash; Thu</em>&nbsp;&nbsp;<strong>12pm &ndash; 10:30pm</strong></p>
-                    <p><em>Fri &ndash; Sat</em>&nbsp;&nbsp;<strong>12pm &ndash; 11pm</strong></p>
-                    <p><em>Sun</em>&nbsp;&nbsp;<strong>12pm &ndash; 10:30pm</strong></p>     
-                
+                      <h3 class="section-subheading">Delivery Times <span>X</span></h3>
+                        <p><em>Mon</em>&nbsp;&nbsp;<strong>10am &ndash; 11:30am</strong></p>
+                    <!-- <p><em>Fri &ndash; Sat</em>&nbsp;&nbsp;<strong>12pm &ndash; 11pm</strong></p> -->
+                    <!-- <p><em>Sun</em>&nbsp;&nbsp;<strong>12pm &ndash; 10:30pm</strong></p> -->
+
                   </div><!-- /.col -->
-                  
+
                   <div class="col-md-3 col-sm-6 inner">
                       <h3 class="section-subheading">Get in Touch <span>V</span></h3>
-                      <p>Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea autem inisita.</p>
+                      <p>We'd love to hear from you.</p>
                       <ul class="contacts">
-                          <li><i class="icon-location contact"></i> 84 Street, City, State 24813</li>
-                          <li><i class="icon-mobile contact"></i> +00 (123) 456 78 90</li>
-                          <li><a href="#"><i class="icon-mail-1 contact"></i> info@jcthemes.com</a></li>
+                          <li><i class="icon-location contact"></i> 855 Front St, San Francisco, CA, 94109</li>
+                          <li><i class="icon-mobile contact"></i> 408 666 4411</li>
+                          <li><a href="mailto:david@littlecatcatering.com"><i class="icon-mail-1 contact"></i> david@littlecatcatering.com</a></li>
                       </ul><!-- /.contacts -->
                   </div><!-- /.col -->
-                  
+
                   <div class="col-md-3 col-sm-6 inner">
-                      <h3 class="section-subheading">Dining Club <span>x</span></h3>
+                      <!-- <h3 class="section-subheading">Dining Club <span>x</span></h3>
                       <p>Conecus iure posae volor remped modis aut lor volor accabora incim resto explabo.</p>
                         <div id="mc_embed_signup">
                             <form id="newsletter" class="form-inline newsletter" role="form" action="mailchimp_code_here" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
@@ -467,27 +565,26 @@
                                 <div id="mce-responses" class="clear">
                                     <div class="response hide" id="mce-error-response"></div>
                                     <div class="response hide" id="mce-success-response"></div>
-                                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                </div>
                                 <div class="bots"><input type="hidden" name="b_d3e5ba7f28f3f616054cdc3f7_8dd74308df" tabindex="-1" value=""></div>
                                 <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default btn-block btn-submit btn-primary"></div>
                             </div>
                             </form>
-                        </div><!--End mc_embed_signup-->
+                        </div> -->
                   </div><!-- /.col -->
-                  
-              </div><!-- /.row --> 
+
+              </div><!-- /.row -->
           </div><!-- .container -->
-        
+
           <div class="footer-bottom">
               <div class="container inner">
-                  <p class="pull-left">&copy; 2015 Foodster. Crafted by jcthemes in England. All rights reserved.</p>
+                  <p class="pull-left">&copy; 2016 Lunchafy. Handcrafted by the Thinkafy family in San Francisco.</p>
                   <ul class="footer-menu pull-right">
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="index.html#restaurants">Restaurants</a></li>
-                      <li><a href="blog.html">Blog</a></li>
-                      <li><a href="index.html#menus">Menus</a></li>
-                      <li><a href="gallery.html">Gallery</a></li>
-                      <li><a href="index.html#contact">Contact</a></li>
+                      <li><a class="page-scroll"  href="#header">Home</a></li>
+                      <li><a class="page-scroll" href="#restaurants">How It Works</a></li>
+                      <li><a class="page-scroll" href="#week">Menu</a></li>
+                      <li><a class="page-scroll" href="#gallery">Gallery</a></li>
+                      <li><a class="page-scroll" href="#contact">Contact</a></li>
                   </ul><!-- .footer-menu -->
               </div><!-- .container -->
           </div><!-- .footer-bottom -->
@@ -511,7 +608,7 @@
                             <h2 class="section-heading">Foodster Manchester</h2>
                             <h3 class="section-subheading">A fine dining experience in Manchester</h3>
                             <img class="img-responsive img-centered" src="assets/images/restaurant_gallery_1.jpg" alt="" data-no-retina>
-                            
+
                             <div class="map">
                                 <div id="restaurant_map"></div>
                             </div>

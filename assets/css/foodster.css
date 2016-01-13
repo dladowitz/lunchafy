@@ -203,15 +203,15 @@ h6 {
 }
 .section-heading {
   font-family: 'novecento_sans_wide_bookbold', sans-serif;
-  color: #2e2e32;
+  color: #ff5200;
   font-size: 45px;
   margin-top: 0;
   margin-bottom: 15px;
 }
 .section-subheading {
   font-family: 'nexa_rust_script_l0regular', sans-serif;
-  font-size: 32px;
-  color: #2e2e32;
+  font-size: 45px;
+  color: #ff5200;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
@@ -717,7 +717,7 @@ fieldset[disabled] .btn-xl.active {
   margin-top: 100px;
 }
 .navbar-default {
-  background-color: #e0ded9;
+  background-color: #ff5200;
   border-color: transparent;
   border-radius: 0;
   position: relative;
@@ -769,7 +769,7 @@ fieldset[disabled] .btn-xl.active {
   font-size: 22px;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #2e2e32;
+  color: white;
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -932,16 +932,16 @@ header .item .slide-content h1 {
 }
 header .item .slide-content h2 {
   font-family: 'nexa_rust_script_l0regular';
-  font-size: 28px;
+  font-size: 50px;
 }
 header .item .item_one {
-  background-image: url('../images/header_background.jpg');
+  background-image: url('../images/main/shrimp_sandwich_small_dark.jpg');
 }
 header .item .item_two {
-  background-image: url('../images/header_background_2.jpg');
+  background-image: url('../images/grill/unique_chain_bg.jpg');
 }
 header .item .item_three {
-  background-image: url('../images/header_background_3.jpg');
+  background-image: url('../images/main/mac_and_cheese_small.jpg');
 }
 header .item .seafood_one {
   background-image: url('../images/seafood_background_1.jpg');
@@ -1025,7 +1025,7 @@ header .btn:hover i.animated {
   color: #fff;
   padding: 25px 0;
   /* Change background image for #unique section here */
-  background: url('../images/unique_chain_bg.jpg') no-repeat center center scroll;
+  background: url('../images/main/raw_taco_small_dark.jpg') no-repeat center center scroll;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1349,7 +1349,7 @@ footer #newsletter input {
   display: none;
 }
 .footer-bottom {
-  background: #2e2e32;
+  background: #ff5200;
   color: #707E8C;
 }
 .footer-bottom .container.inner {

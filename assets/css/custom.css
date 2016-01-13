@@ -1,0 +1,66 @@
+/*Primary Color Orange: #ff5200*/
+
+/*Colors*/
+.orange {
+  color: #ff5200;
+}
+
+/*Navbar*/
+.logo-text {
+  color: white;
+  font-size: 50px;
+  font-family: 'nexa_rust_script_l0regular';
+  margin-top: 30px;
+}
+
+/*Intro*/
+.menu {
+  margin-top: 50px;
+}
+
+#intro .section-divider {
+  margin: 20px, 0, 0, 0;
+  font-size: 80px;
+  line-height: 20px;
+}
+
+/*Restaurants*/
+.how-it-works {
+  margin-bottom: 10px;
+}
+
+.explaination a{
+  color: #ff5200 !important;
+}
+
+#restaurants .section-icon {
+  font-size: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color:  #ff5200;
+}
+
+/*Panel*/
+.panel-title {
+  font-size: 19px;
+  /*color: #ff5200;*/
+}
+
+/*Gallery*/
+.carousel-inner>.item>img {
+  width: 100%;
+}
+
+/*Purchase*/
+.purchase {
+  background: white;
+}
+
+/*Footer*/
+footer {
+  background: white;
+}
+
+.footer-bottom p, .footer-bottom a {
+  color: white !important;
+}
