@@ -72,3 +72,7 @@ footer {
 .footer-bottom p, .footer-bottom a {
   color: white !important;
 }
+
+.footer-bottom p a {
+  text-decoration: underline;
+}
